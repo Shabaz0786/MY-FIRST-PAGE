@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #daedb8;
+}
+video{
+    /* width:300px; */
+    height: 300px;
+    position: absolute;
+    background-color: black;
+    top: 35%;
+    left: 40%;
+}
+h1{
+    position: absolute;
+    /* font-family: dancing script; */
+    top: 30%;
+    left: 35%;
+    font-size: 4vmax;
+}
+h3{
+    position: absolute;
+    font-family: dansing script;
+    font-size: 4vmax;
+    font: 200 4vmax "gilroy";
+
+}
+h4{
+    position: absolute;
+    font-family: dansing script;
+    font: 200 2vmax "gilroy";
+    left: 90%;
+    font-size: 4vmax;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.content>h1{
+    font-size: 10vw;
+    line-height: 9vw;
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    top: 30%;
+    left: 10%;
+    z-index: 99;
+}
+.content>h1:nth-child(2){
+    left: 25%;
+}
+audio{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
